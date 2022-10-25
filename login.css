@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: BLACK;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form h2{
+    color: orange;
+}
+.form input{
+    padding: 20px 120px 20px 10px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border: none;
+}
+.login-btn{
+    padding: 10px 20px;
+    background: orange;
+    border-radius: 8px;
+}
